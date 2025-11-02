@@ -10,6 +10,6 @@ for i in range(N):
 X = int(input("Enter the number to search: "))
 
 if X in numbers:
-    print( 1)
+    print( numbers.index (x) + 1)
 else:
     print(-1)
